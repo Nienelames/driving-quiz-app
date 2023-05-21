@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DrivingQuizApp.Server.Entities;
+namespace DrivingQuizApp.Server.Data.Entities;
 
 public record Explanation()
 {

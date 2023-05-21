@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DrivingQuizApp.Server.Entities;
+namespace DrivingQuizApp.Server.Data.Entities;
 
 public record UserPermission()
 {

@@ -1,4 +1,4 @@
-using DrivingQuizApp.Server.Entities;
+using DrivingQuizApp.Server.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DrivingQuizApp.Server.Data;
