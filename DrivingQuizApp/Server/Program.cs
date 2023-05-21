@@ -1,9 +1,15 @@
+using DrivingQuizApp.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
+builder.Services.AddDbContext<QuizDbContext>(options =>
+{
+    options.UseSqlite("Data Source=quiz.db");
+});
 
 var app = builder.Build();
 
