@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingQuizApp.Server", "DrivingQuizApp\Server\DrivingQuizApp.Server.csproj", "{F1A04B89-26F4-4C3E-830F-FB91F12E7F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingQuizApp.Client", "DrivingQuizApp\Client\DrivingQuizApp.Client.csproj", "{17414CB1-92FC-43B0-B8AE-5FBEFA1BD4B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrivingQuizApp.Shared", "DrivingQuizApp\Shared\DrivingQuizApp.Shared.csproj", "{4098BBC4-97BC-4FD8-86C6-40A691F09541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A04B89-26F4-4C3E-830F-FB91F12E7F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A04B89-26F4-4C3E-830F-FB91F12E7F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A04B89-26F4-4C3E-830F-FB91F12E7F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A04B89-26F4-4C3E-830F-FB91F12E7F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17414CB1-92FC-43B0-B8AE-5FBEFA1BD4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17414CB1-92FC-43B0-B8AE-5FBEFA1BD4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17414CB1-92FC-43B0-B8AE-5FBEFA1BD4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17414CB1-92FC-43B0-B8AE-5FBEFA1BD4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4098BBC4-97BC-4FD8-86C6-40A691F09541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4098BBC4-97BC-4FD8-86C6-40A691F09541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4098BBC4-97BC-4FD8-86C6-40A691F09541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4098BBC4-97BC-4FD8-86C6-40A691F09541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
