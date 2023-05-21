@@ -7,8 +7,8 @@ public record UserPermission()
     public int Id { get; init; }
 
     [Required]
-    public bool CanAccessApp { get; init; }
+    public bool IsWhitelisted { get; init; } = false;
 
     [Required]
-    public bool CanGrantAccessToApp { get; init; }
+    public bool CanWhitelist { get; init; } = false;
 }
